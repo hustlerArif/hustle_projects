@@ -17,6 +17,7 @@ function Profile() {
   return (
     <div>
       <ul>
+        <p>below is the result</p>
         {result.map((item) => (
           <li key={item.id}>
             {item.id}
